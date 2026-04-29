@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Gradiente Institucional (Tecnologia/Governo) -->
+    <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0052D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4364F7;stop-opacity:1" />
+    </linearGradient>
+    <!-- Gradiente de Sucesso (Eficiência/Verdade) -->
+    <linearGradient id="gradGreen" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#11998e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38ef7d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo Escuro Moderno (estilo modo noturno de dashboards) -->
+  <rect width="500" height="500" fill="#0B132B" rx="40"/>
+  
+  <!-- Grid de fundo sutil para remeter a "Dados/Planilhas" -->
+  <g stroke="#1C2541" stroke-width="2" opacity="0.6">
+     <line x1="100" y1="0" x2="100" y2="500"/>
+     <line x1="200" y1="0" x2="200" y2="500"/>
+     <line x1="300" y1="0" x2="300" y2="500"/>
+     <line x1="400" y1="0" x2="400" y2="500"/>
+     <line x1="0" y1="100" x2="500" y2="100"/>
+     <line x1="0" y1="200" x2="500" y2="200"/>
+     <line x1="0" y1="300" x2="500" y2="300"/>
+     <line x1="0" y1="400" x2="500" y2="400"/>
+  </g>
+
+  <!-- Ícone V (Check de Verificação e Gráfico) -->
+  <g transform="translate(0, -20)">
+      <path d="M150,230 L230,310 L370,150" fill="none" stroke="url(#gradGreen)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Nós/Pontos de Dados -->
+      <circle cx="150" cy="230" r="22" fill="#11998e" />
+      <circle cx="230" cy="310" r="22" fill="#38ef7d" />
+      <circle cx="370" cy="150" r="22" fill="#4364F7" />
+  </g>
+
+  <!-- Tipografia VerumGov -->
+  <text x="250" y="420" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-weight="800" font-size="52" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">
+    VERUM<tspan fill="#38ef7d">GOV</tspan>
+  </text>
+  <text x="250" y="450" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-weight="400" font-size="16" fill="#8A9BB2" text-anchor="middle" letter-spacing="3">
+    DATA & EFFICIENCY
+  </text>
+</svg>
